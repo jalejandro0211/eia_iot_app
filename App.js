@@ -13,7 +13,7 @@ export default function App() {
 	return (
 		<NavigationContainer>
 			<Stack.Navigator screenOptions={{ headerShown: false }}>
-				<Stack.Screen name='homee' component={HomeScreen}></Stack.Screen>
+				<Stack.Screen name='home' component={HomeScreen}></Stack.Screen>
 				<Stack.Screen name='machines' component={MachinesScreen}></Stack.Screen>
 				<Stack.Screen name='devices' component={DevicesScreen}></Stack.Screen>
 				<Stack.Screen name='graph' component={GraphScreen}></Stack.Screen>
